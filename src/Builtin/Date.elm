@@ -1,4 +1,4 @@
-module Builtin.Date exposing (Date, now)
+module Builtin.Date exposing (now)
 
 {-| A module that exposes some functionality from the global object [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date).
 
@@ -7,11 +7,6 @@ module Builtin.Date exposing (Date, now)
 -}
 
 import Native.Builtin
-
-
-{-| The type that represents Date objects
--}
-type Date
 
 
 {-| Date.now(): returns the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC.
