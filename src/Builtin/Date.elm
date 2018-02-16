@@ -1,11 +1,13 @@
-module Builtin.Date exposing (now)
+module Builtin.Date exposing (new, now)
 
 {-| A module that exposes some functionality from the global object [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date).
 
 @docs now
+@docs new
 
 -}
 
+import Date
 import Native.Builtin
 
 
@@ -14,3 +16,10 @@ import Native.Builtin
 now : Int
 now =
     Native.Builtin.now
+
+
+{-| Returns a Date as new Date() (ie. now).
+-}
+new : Date.Date
+new =
+    Native.Builtin.newDate
