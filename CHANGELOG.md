@@ -12,6 +12,8 @@
 
 ## Next release
 
+- [+] Added Builtin.Date.timezoneOffset +  Builtin.Date.timezone 
+
 ## 2.0.0
 
 - [F] Builtin.Date.now and Builtin.Date.new are functions now, to
