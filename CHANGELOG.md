@@ -12,6 +12,13 @@
 
 ## Next release
 
+## 2.0.0
+
+- [F] Builtin.Date.now and Builtin.Date.new are functions now, to
+  allow each execution to return the current date.
+
+## 1.0.1
+
 - [F] fixing the native prefix from aherranz to coowry.
 - [+] Builtin.Date.new added to return now in Date format.
 
