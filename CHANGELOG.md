@@ -12,6 +12,8 @@
 
 ## Next release
 
+## 2.0.0
+
 - [F] Builtin.Date.now and Builtin.Date.new are functions now, to
   allow each execution to return the current date.
 
