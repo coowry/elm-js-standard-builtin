@@ -35,6 +35,6 @@ suite =
         , test "newDate does not fail" (\() -> Expect.equal 2018 (Date.year <| Builtin.Date.new ()))
         , test "newDate returns now in every invocation" (\() -> Expect.notEqual d1 d2)
         , test "now returns now in every invocation" (\() -> Expect.notEqual n1 n2)
-        , test "Testing timezoneOffset" (\() -> Expect.equal -120 (Builtin.Date.timezoneOffset ()))
-        , test "Testing timezone" (\() -> Expect.equal "UTC+02:00" (Builtin.Date.timezone ()))
+        , test "Testing timezoneOffset" (\() -> Expect.equal -120 Builtin.Date.timezoneOffset)
+        , test "Testing timezone" (\() -> Expect.equal "UTC+02:00" Builtin.Date.timezone)
         ]

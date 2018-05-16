@@ -30,13 +30,13 @@ new () =
 {-| Returns the time zone difference, in minutes, from current locale
 (host system settings) to UTC.
 -}
-timezoneOffset : () -> Int
-timezoneOffset () =
+timezoneOffset : Int
+timezoneOffset =
     Native.Builtin.timezoneOffset ()
 
 
 {-| Returns the time zone from current locale (host system settings).
 -}
-timezone : () -> String
-timezone () =
+timezone : String
+timezone =
     Native.Builtin.timezone ()
