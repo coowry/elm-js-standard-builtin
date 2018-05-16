@@ -12,6 +12,8 @@
 
 ## Next release
 
+## 1.0.1
+
 - [F] fixing the native prefix from aherranz to coowry.
 - [+] Builtin.Date.new added to return now in Date format.
 
