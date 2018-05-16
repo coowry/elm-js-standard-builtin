@@ -23,6 +23,10 @@ nowisnow : Bool
 nowisnow = Date.now == Date.now
 ```
 
+## Some assumptions
+
+- We assume that data of type Date.Date from Elm core is compatible with JS builtin Date objects.
+
 ## Supported objects and functions
 
 - [`Date`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
