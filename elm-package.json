@@ -1,7 +1,7 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "summary": "Elm native library to access JavaScript's standard, built-in objects.",
-    "repository": "https://github.com/aherranz/elm-js-standard-builtin.git",
+    "repository": "https://github.com/coowry/elm-js-standard-builtin.git",
     "license": "BSD3",
     "source-directories": [
         "src"
