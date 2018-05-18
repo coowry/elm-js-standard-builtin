@@ -20,7 +20,7 @@ Maybe you want to remove `elm-stuff` and `tests/elm-stuff` if something fails.
 import Builtin.Date as Date
 
 nowisnow : Bool
-nowisnow = Date.now == Date.now
+nowisnow = Date.now ()  == Date.now ()
 ```
 
 ## Some assumptions
