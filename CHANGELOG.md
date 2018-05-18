@@ -12,6 +12,10 @@
 
 ## Next release
 
+## 2.1.1
+
+- [F] Builtin.Int.DateTimeFormat added to exposed-modules
+
 ## 2.1.0
 
 - [+] Added Builtin.Int.DateTimeFormat.resolvedOptions (with locale and timeZone properties)
