@@ -12,6 +12,8 @@
 
 ## Next release
 
+- [+] Added Builtin.Int.DateTimeFormat.resolvedOptions (with locale and timeZone properties)
+
 ## 2.0.1
 
 - [+] Added Builtin.Date.timezoneOffset +  Builtin.Date.timezone 
