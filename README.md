@@ -20,7 +20,7 @@ Maybe you want to remove `elm-stuff` and `tests/elm-stuff` if something fails.
 import Builtin.Date as Date
 
 nowisnow : Bool
-nowisnow = Date.now == Date.now
+nowisnow = Date.now ()  == Date.now ()
 ```
 
 ## Some assumptions
@@ -30,4 +30,10 @@ nowisnow = Date.now == Date.now
 ## Supported objects and functions
 
 - [`Date`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
-    - [`now`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now)
+    - [`now()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now)
+    - [`new()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now)
+    - [`timezoneOffset`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset)
+    - `timezone` String with UTC +/- representation of the timezone and timezone offset (eg. -120 -> "Europe/Madrid (UTC +2:00)")
+ - [`Intl.DateTimeFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat)
+    - [`resolvedOptions`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat/resolvedOptions)
+      (just `locale` and `timeZone` properties are exposed)
