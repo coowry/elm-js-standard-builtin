@@ -1,5 +1,5 @@
 {
-    "version": "2.1.0",
+    "version": "2.1.1",
     "summary": "Elm native library to access JavaScript's standard, built-in objects.",
     "repository": "https://github.com/coowry/elm-js-standard-builtin.git",
     "license": "BSD3",
