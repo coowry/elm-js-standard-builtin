@@ -7,7 +7,8 @@
         "src"
     ],
     "exposed-modules": [
-        "Builtin.Date"
+        "Builtin.Date",
+        "Builtin.Intl.DateTimeFormat"
     ],
     "native-modules": true,
     "dependencies": {
